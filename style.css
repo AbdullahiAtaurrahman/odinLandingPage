@@ -1,0 +1,162 @@
+* {
+    font-family: Robot0, sans-serif, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 6px;
+}
+
+.header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #1f2937;
+    padding: 8px;
+}
+
+.header,
+footer,
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-top: 24px;
+    padding-bottom: 8%;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 2rem;
+}
+
+.hero-secondary-text,
+.link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.link-text {
+    background-color: #3882f6;
+    width: 160px;
+    border-radius: 6px;
+    padding: 4px;
+    margin-top: 2rem;
+}
+
+.img-rep {
+    width: 35%;
+    height: auto;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2 h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.item {
+    max-width: 160px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    margin: 25px;
+}
+
+.info {
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+em {
+    align-self: flex-end;
+}
+
+.qoute {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-4 {
+    background-color: #3882f6;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.section-4 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #e5e7eb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    min-width: 20%;
+    margin: 8px;
+    padding: 6px;
+}
